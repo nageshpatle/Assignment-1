@@ -4,15 +4,102 @@
 <html>
 <head>
     <title>Presenting the Nagesh Patle's Blog</title>
-    <style>
+    <style type="text/css">
+    h1#refer{background-image: url(A1Quicklink.png);color:blue;padding-top:8px;padding-bottom:10px;text-align: center;width: 16%;height:30px;position:fixed;float:right;font-size: 2vw}
+    h2{color:white;font-family:Courier;padding:10px;width:15%;text-decoration: none;height:30px;position:relative;float:right;border:1px solid green;font-size: 2vw;text-align:center;}
+
+    form>ol>li {text-align:center;}
+   
+   a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+p {text-indent: center;}
+
 
     </style>
 </head>
 
 
 
-<body >
-<h1>Hello guys!</h1>
+<body id="top" style="background-repeat:no-repeat;background-size:100vw" >
+
+<h2 style="background-color:#3368FF; "><a href="#suggest">Suggestions</a></h2>
+<h2 style="background-color:#66FF33; "><a href="contact.html">Contact</a></h2>
+<h2 style="background-color:#663333;"><a href="achieve.html">Achievements</a></h2>
+<h2 style="background-color:#CCFF00; "><a href="interest.html">Interests</a></h2>
+<h2 style="background-color:#FF6633; "><a href="myinfo.html">My Info</a></h2>
+
+
+<h1 id="refer" ><a href="#top"> Quick Links</a></h1>
+<br/>
+<br/>
+<br/>
+<br/><p>*</p>
+<h1 style="text-align:center;color:white;font-size: 3vw;">The Nagesh Patle's Blog</h1><p>*</p>
+<hr>
+<h3 style="text-indent:230px">Search anything about me here!</h3>
+<img src="A1PP.jpg" width="225vw" height="375vw">
+<iframe src="http://www.goglogo.com/s.asp?lo=Nagesh" style="border:none" height="375vw" width="1050"></iframe>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+
+
+<form id="suggest" style="border:5px solid grey">
+    <h1 style="color:green;text-align: center">___* Your suggestions are precious to me *___</h1>
+    <br/>
+    <ol>
+    <li>Your good name: <input type="text" name="username" value="Enter name here..." maxlength="10" size="20"></li>
+    <br/>
+    <li><p>Select profession:</p>
+    <br/>
+    student <input type="radio" name="profession" value="student" checked>
+    professor <input type="radio" name="profession" value="professor">
+    businessman <input type="radio" name="profession" value="businssman">
+    other <input type="radio" name="profession" value="other">
+    </li>
+    
+   <li> <p>How do you rate this website?</p>
+    <input type="range" name="ratings" min="0" max="10"> </li>
+
+    <br/>
+
+    <li><p>Suggestions:</p>
+<br/>
+<textarea
+    name="suggestions"
+    rows="8"
+    cols="40"
+    >I'd like to suggest that...
+</textarea></li>
+<br/>
+<input type="submit" value="Submit!" style="text-align:center;">
+
+
+
+</form>
 
 </body>
 </html>
